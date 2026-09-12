@@ -1,26 +1,26 @@
-let day = 9;
+let day = "Sat";
 
 switch (day) {
 
-    case 1: console.log("Monday");
+    case "Mon": console.log("Monday");
     break;
 
-    case 2: console.log("Tuesday");
+    case "Tue": console.log("Tuesday");
     break;
 
-    case 3: console.log("Wednesday");
+    case "Wed": console.log("Wednesday");
     break;
 
-    case 4: console.log("Thursday");
+    case "Thu": console.log("Thursday");
     break;
 
-    case 5: console.log("Friday");
+    case "Fri": console.log("Friday");
     break;
 
-    case 6: console.log("Saturday");
+    case "Sat": console.log("Saturday");
     break;
 
-    case 7: console.log("Sunday");
+    case "Sun": console.log("Sunday");
     break;
 
     default: console.log("not a right number");
